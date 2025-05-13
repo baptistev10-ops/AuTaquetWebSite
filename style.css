@@ -11,8 +11,9 @@ body {
     grid-template-columns: repeat(6,1fr);
     grid-template-rows: repeat(6,1fr);
     gap: 0.5rem;
-    /* background-image: url("image/481471495_1102593824999425_6248080061183461740_n.jpg"); */
-    background: linear-gradient(145deg, #1e4032, #2e2e2e, #80c0a4);
+    background-image: url("image/giphy.gif");
+    filter: blur(5.00);
+    /* background: linear-gradient(145deg, #1e4032, #2e2e2e, #80c0a4); */
     font-family: "Roboto", sans-serif;
     background-repeat: no-repeat;
     background-size: cover;
