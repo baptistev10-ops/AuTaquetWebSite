@@ -11,9 +11,8 @@ body {
     grid-template-columns: repeat(6,1fr);
     grid-template-rows: repeat(6,1fr);
     gap: 0.5rem;
-    background-image: url("image/giphy.gif");
     filter: blur(5.00);
-    /* background: linear-gradient(145deg, #1e4032, #2e2e2e, #80c0a4); */
+    background: linear-gradient(145deg, #1e4032, #2e2e2e, #80c0a4);
     font-family: "Roboto", sans-serif;
     background-repeat: no-repeat;
     background-size: cover;
@@ -171,7 +170,7 @@ section:hover {
 
 
 /* Paramètrage de l'article */
-article {
+.article-index {
     grid-area: 2 / 1 / 6 / 5;
     margin: 0 0 0 0.5rem;
     border-radius: 10px;
@@ -184,7 +183,7 @@ article {
     font-size: 1.5rem;
 }
 
-article img {
+.article-index img {
     width: 47.5%;
     height: 90%;
     border-radius: 10px;
@@ -307,7 +306,66 @@ footer:hover {
     transform: scale(1.12)
 }
 
+.absolute-position {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 3%;
+}
+
 /* __________________LOC.HTML__________________ */
+
+
+.article-loc {
+    grid-area: 2 / 1 / 6 / 5;
+    margin: 0 0 0 0.5rem;
+    border-radius: 10px;
+    transition: 0.25s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #226D68;
+    font-size: 1.5rem;
+}
+
+iframe {
+    height: 80%;
+    width: 100%;
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+/* __________________CARTE.HTML__________________ */
+
+.article-card {
+    grid-area: 2 / 1 / 6 / 5;
+    margin: 0 0 0 0.5rem;
+    border-radius: 10px;
+    transition: 0.25s;
+    
+}
+
+.section-card img {
+    height: 20px;
+}
+
+.dish {
+    font-size: 1.5rem;
+    text-decoration: underline;
+}
+
+.dish time,.dish {
+    color:#f7e9d7;
+}
+
+.price {
+    transform: rotate(-45deg);
+    position: absolute;
+    margin-left: 0.5rem;
+}
+
 
 
 
