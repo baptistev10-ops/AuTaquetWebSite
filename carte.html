@@ -106,14 +106,30 @@
     <!-- Description du site -->
     <article class="article-card">
 
-        <h1 class="text-center underline">Carte des Vins</h1>
+        <ul class="menu-list">
+            <li>
+                <a href="#vins" title="Bouton qui ramène à la carte des vins" class="bouton-style">Les vins</a>
+            </li>
 
-        <h2>🟥 Vins Rouges 🟥</h2>
+            <li>
+                <a href="#beer" title="Bouton qui ramène à la carte des bières" class="bouton-style">Les bières</a>
+            </li>
+
+            <li>
+                <a href="#soft" title="Bouton qui ramène à la carte des softs" class="bouton-style">Les softs</a>
+            </li>
+        </ul>
+
+        <h1 class="text-center underline capitalize">la carte</h1>
+
+        <h2 id="vins" class="capitalize text-center">les vins</h2>
+
+        <h3>Vins Rouges</h3>
 
         <div class="section-card-wine">
             <div class="wine-card">
                 <div class="wine-img">
-                    <img src="image/du-vin.png" alt="logo de vins" title="Icon de bouteilles de vins">
+                    <img src="image/du-vin.png" alt="logo de vins" title="Icon de bouteilles de vins" class="img-red-wine animation-background">
                 </div>
                 <div class="wine-title">
                     <h3>&#127863; Bordeaux – Château de Montclair 2019</h3>
@@ -128,7 +144,7 @@
             
             <div class="wine-card">
                 <div class="wine-img">
-                    <img src="image/du-vin.png" alt="logo de vins" title="Icon de bouteilles de vins">
+                    <img src="image/du-vin.png" alt="logo de vins" title="Icon de bouteilles de vins" class="img-red-wine animation-background">
                 </div>
                 <div class="wine-title">
                     <h3>&#127863; Bourgogne – Domaine Lavoisier 2020</h3>
@@ -143,7 +159,7 @@
             
             <div class="wine-card">
                 <div class="wine-img">
-                    <img src="image/du-vin.png" alt="logo de vins" title="Icon de bouteilles de vins">
+                    <img src="image/du-vin.png" alt="logo de vins" title="Icon de bouteilles de vins" class="img-red-wine animation-background">
                 </div>
                 <div class="wine-title">
                     <h3>&#127863; Côtes-du-Rhône – Le Mas du Levant 2021</h3>
@@ -157,10 +173,12 @@
             </div>
         </div>
 
+        <h3 class="capitalize">vins blanc</h3>
+
         <div class="section-card-wine">
             <div class="wine-card">
                 <div class="wine-img">
-                    <img src="image/du-vin-blanc.png" alt="logo de vins" title="Icon de bouteilles de vins">
+                    <img src="image/du-vin-blanc.png" alt="logo de vins" title="Icon de bouteilles de vins" class="img-white-wine animation-background">
                 </div>
                 <div class="wine-title">
                     <h3>&#127863; Sancerre – Domaine des Pluviers 2022</h3>
@@ -175,7 +193,7 @@
             
             <div class="wine-card">
                 <div class="wine-img">
-                    <img src="image/du-vin-blanc.png" alt="logo de vins" title="Icon de bouteilles de vins">
+                    <img src="image/du-vin-blanc.png" alt="logo de vins" title="Icon de bouteilles de vins" class="img-white-wine animation-background">
                 </div>
                 <div class="wine-title">
                     <h3>&#127863; Chardonnay – Les Pierres Blanches 2021</h3>
@@ -190,7 +208,7 @@
             
             <div class="wine-card">
                 <div class="wine-img">
-                    <img src="image/du-vin-blanc.png" alt="logo de vins" title="Icon de bouteilles de vins">
+                    <img src="image/du-vin-blanc.png" alt="logo de vins" title="Icon de bouteilles de vins" class="img-white-wine animation-background">
                 </div>
                 <div class="wine-title">
                     <h3>&#127863; Bordeaux – Château de Montclair 2019</h3>
@@ -204,10 +222,12 @@
             </div>
         </div>
 
+        <h3 class="capitalize">Rosé</h3>
+
         <div class="section-card-wine">
             <div class="wine-card">
                 <div class="wine-img">
-                    <img src="image/du-vin-rose.png" alt="logo de vins" title="Icon de bouteilles de vins">
+                    <img src="image/du-vin-rose.png" alt="logo de vins" title="Icon de bouteilles de vins" class="img-pink-wine animation-background">
                 </div>
                 <div class="wine-title">
                     <h3>&#127863; Côtes de Provence – Château du Rosé d’Or 2023</h3>
@@ -222,7 +242,7 @@
             
             <div class="wine-card">
                 <div class="wine-img">
-                    <img src="image/du-vin-rose.png" alt="logo de vins" title="Icon de bouteilles de vins">
+                    <img src="image/du-vin-rose.png" alt="logo de vins" title="Icon de bouteilles de vins" class="img-pink-wine animation-background">
                 </div>
                 <div class="wine-title">
                     <h3>&#127863; Tavel – Rosé Impérial 2022</h3>
@@ -235,6 +255,214 @@
                 </div>
             </div>
         </div>
+
+        <h2 id="beer" class="text-center capitalize">les bières</h2>
+
+        <h3 class="capitalize">bières pression</h3>
+
+        <div class="section-card-wine">
+            <div class="wine-card">
+                <div class="wine-img">
+                    <img src="image/robinet-de-biere.png" alt="logo de vins" title="Icon de bouteilles de vins" class="img-beer-pression animation-background">
+                </div>
+                <div class="wine-title">
+                    <h3>&#127866; Kronenbourg</h3>
+                </div>
+                <p>Blonde légère, française</p>
+                <div>
+                    <b>25cl : 2,80€</b> 
+                    <b>• 50cl : 5,00€</b>
+                </div>
+            </div>
+            
+            <div class="wine-card">
+                <div class="wine-img">
+                    <img src="image/robinet-de-biere.png" alt="logo de vins" title="Icon de bouteilles de vins" class="img-beer-pression animation-background">
+                </div>
+                <div class="wine-title">
+                    <h3>&#127866; 1664</h3>
+                </div>
+                <p>Blonde premium, notes florales</p>
+                <div>
+                    <b>25cl : 3,20 €</b> 
+                    <b>• 50cl : 5,80 €</b>
+                </div>
+            </div>
+            
+            <div class="wine-card">
+                <div class="wine-img">
+                    <img src="image/robinet-de-biere.png" alt="logo de vins" title="Icon de bouteilles de vins" class="img-beer-pression animation-background">
+                </div>
+                <div class="wine-title">
+                    <h3>&#127866; Grimbergen Blonde</h3>
+                </div>
+                <p>Bière d’abbaye douce et ronde</p>
+                <div>
+                    <b>25cl : 3,50€</b> 
+                    <b>• 50cl : 6,20€</b>
+                </div>
+            </div>
+
+            <div class="wine-card">
+                <div class="wine-img">
+                    <img src="image/robinet-de-biere.png" alt="logo de vins" title="Icon de bouteilles de vins" class="img-beer-pression animation-background">
+                </div>
+                <div class="wine-title">
+                    <h3>&#127866; Affligem</h3>
+                </div>
+                <p>Blonde belge, équilibrée, légèrement épicée</p>
+                <div>
+                    <b>25cl : 3,80€</b> 
+                    <b>• 50cl : 6,50€</b>
+                </div>
+            </div>
+        </div>
+
+
+        <h3 class="capitalize">bières en bouteille</h3>
+
+        <div class="section-card-wine">
+            <div class="wine-card">
+                <div class="wine-img">
+                    <img src="image/bouteille-de-biere.png" alt="logo de vins" title="Icon de bouteilles de vins" class="img-beer-bottle animation-background">
+                </div>
+                <div class="wine-title">
+                    <h3>&#127870; Desperados</h3>
+                </div>
+                <p>Aromatisée à la tequila</p>
+                <div>
+                    <b>33cl : 4,20 €</b> 
+                </div>
+            </div>
+            
+            <div class="wine-card">
+                <div class="wine-img">
+                    <img src="image/bouteille-de-biere.png" alt="logo de vins" title="Icon de bouteilles de vins" class="img-beer-bottle animation-background">
+                </div>
+                <div class="wine-title">
+                    <h3>&#127870; Heineken</h3>
+                </div>
+                <p>Blonde hollandaise classique</p>
+                <div>
+                    <b>33cl : 3,80 €</b>
+                </div>
+            </div>
+            
+            <div class="wine-card">
+                <div class="wine-img">
+                    <img src="image/bouteille-de-biere.png" alt="logo de vins" title="Icon de bouteilles de vins" class="img-beer-bottle animation-background">
+                </div>
+                <div class="wine-title">
+                    <h3>&#127870; Corona</h3>
+                </div>
+                <p>Blonde légère à servir avec citron vert</p>
+                <div> 
+                    <b>33cl : 4,50 €</b>
+                </div>
+            </div>
+
+            <div class="wine-card">
+                <div class="wine-img">
+                    <img src="image/bouteille-de-biere.png" alt="logo de vins" title="Icon de bouteilles de vins" class="img-beer-bottle animation-background">
+                </div>
+                <div class="wine-title">
+                    <h3>&#127870; Leffe Brune</h3>
+                </div>
+                <p>Riche, caramélisée</p>
+                <div>
+                    <b>33cl : 4,70 €</b> 
+                </div>
+            </div>
+
+            <div class="wine-card">
+                <div class="wine-img">
+                    <img src="image/bouteille-de-biere.png" alt="logo de vins" title="Icon de bouteilles de vins" class="img-beer-bottle animation-background">
+                </div>
+                <div class="wine-title">
+                    <h3>&#127870; Pelforth Ambrée</h3>
+                </div>
+                <p>Douce, maltée</p>
+                <div>
+                    <b>33cl : 4,20 €</b> 
+                </div>
+            </div>
+        </div>
+
+
+        <h3 class="capitalize">bières artisanales & locales</h3>
+
+        <div class="section-card-wine">
+            <div class="wine-card">
+                <div class="wine-img">
+                    <img src="image/bouteille-de-biere-art.png" alt="logo de vins" title="Icon de bouteilles de vins" class="img-beer-artisanal animation-background">
+                </div>
+                <div class="wine-title">
+                    <h3>&#127870; La Ch’ti Blonde</h3>
+                </div>
+                <p>Douce et fruitée</p>
+                <div>
+                    <b>33cl : 5,00 €</b> 
+                </div>
+            </div>
+            
+            <div class="wine-card">
+                <div class="wine-img">
+                    <img src="image/bouteille-de-biere-art.png" alt="logo de vins" title="Icon de bouteilles de vins" class="img-beer-artisanal animation-background">
+                </div>
+                <div class="wine-title">
+                    <h3>&#127870; La Page 24 IPA</h3>
+                </div>
+                <p>Amertume franche, notes d’agrumes</p>
+                <div>
+                    <b>33cl : 5,50 €</b>
+                </div>
+            </div>
+
+            <div class="wine-card">
+                <div class="wine-img">
+                    <img src="image/bouteille-de-biere-art.png" alt="logo de vins" title="Icon de bouteilles de vins" class="img-beer-artisanal animation-background">
+                </div>
+                <div class="wine-title">
+                    <h3>&#127870; Anosteké Blonde</h3>
+                </div>
+                <p>Bière du Nord, équilibrée et florale</p>
+                <div>
+                    <b>33cl : 5,30 €</b>
+                </div>
+            </div>
+        </div>
+
+
+        <h3 class="capitalize">sans alcool</h3>
+
+        <div class="section-card-wine">
+            <div class="wine-card">
+                <div class="wine-img">
+                    <img src="image/biere-sans-alcool.png" alt="logo de vins" title="Icon de bouteilles de vins" class="img-beer-noalcool animation-background">
+                </div>
+                <div class="wine-title">
+                    <h3>&#129475; Tourtel Twist Citron / Agrumes</h3>
+                </div>
+                <div>
+                    <b>3,50 €</b> 
+                </div>
+            </div>
+            
+            <div class="wine-card">
+                <div class="wine-img">
+                    <img src="image/biere-sans-alcool.png" alt="logo de vins" title="Icon de bouteilles de vins" class="img-beer-noalcool animation-background">
+                </div>
+                <div class="wine-title">
+                    <h3>&#129475; Heineken 0.0</h3>
+                </div>
+                <div>
+                    <b>3,50 €</b>
+                </div>
+            </div>
+        </div>
+
+
+
 
     </article>
 

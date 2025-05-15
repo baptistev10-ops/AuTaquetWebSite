@@ -316,6 +316,62 @@ footer:hover {
     text-decoration: underline;
 }
 
+.img-red-wine {
+    background: linear-gradient(to bottom right, #4b0e0e, #8a1c1c, #b33f3f);
+    border-radius: 56% 44% 70% 30% / 30% 40% 60% 70%; 
+    height: 5rem;
+    padding: 2rem;
+    transition: 1.00s ease;
+}
+
+.img-white-wine {
+    background: linear-gradient(to bottom right, #fdf6e3, #f7e8b8, #e5c07b);
+    border-radius: 56% 44% 70% 30% / 30% 40% 60% 70%; 
+    height: 5rem;
+    padding: 2rem;
+    transition: 1.00s ease;
+}
+
+.img-pink-wine {
+    background: linear-gradient(to bottom right, #ffe4ec, #f8b5c8, #f295b5);
+    border-radius: 56% 44% 70% 30% / 30% 40% 60% 70%; 
+    height: 5rem;
+    padding: 2rem;
+    transition: 1.00s ease;
+}
+
+.img-beer-pression {
+    background: linear-gradient(to bottom right, #fdf3c0, #f7d774, #d4a82c);
+    border-radius: 56% 44% 70% 30% / 30% 40% 60% 70%; 
+    height: 5rem;
+    padding: 2rem;
+    transition: 1.00s ease;
+}
+
+.img-beer-bottle {
+    background: linear-gradient(to bottom right, #8c4b08, #bf6f19, #d99a3e);
+    border-radius: 56% 44% 70% 30% / 30% 40% 60% 70%; 
+    height: 5rem;
+    padding: 2rem;
+    transition: 1.00s ease;
+}
+
+.img-beer-artisanal {
+    background: linear-gradient(to bottom right, #b57b17, #d9a441, #f2c94c);
+    border-radius: 56% 44% 70% 30% / 30% 40% 60% 70%; 
+    height: 5rem;
+    padding: 2rem;
+    transition: 1.00s ease;
+}
+
+.img-beer-noalcool {
+    background: linear-gradient(to bottom right, #e0f7fa, #a7e8fd, #70cfff);
+    border-radius: 56% 44% 70% 30% / 30% 40% 60% 70%; 
+    height: 5rem;
+    padding: 2rem;
+    transition: 1.00s ease;
+}
+
 /* __________________LOC.HTML__________________ */
 
 
@@ -349,6 +405,14 @@ iframe {
     border-radius: 10px;
     transition: 0.25s;
     overflow-y: scroll;
+    background-color: #fdf8f2;
+    background: linear-gradient(to bottom right, #1a1a1a, #2e2e2e);
+    color: #f7e9d7;
+    scroll-behavior: smooth;
+}
+
+.article-card h1 {
+    font-size: 2rem;
 }
 
 .section-card img {
@@ -368,14 +432,6 @@ iframe {
     transform: rotate(-45deg);
     position: absolute;
     margin-left: 0.5rem;
-}
-
-.article-card img {
-    background-color: azure;
-    border-radius: 56% 44% 70% 30% / 30% 40% 60% 70%; 
-    height: 5rem;
-    padding: 2rem;
-    transition: 1.00s ease;
 }
 
 .section-card-wine {
@@ -410,8 +466,86 @@ iframe {
     flex-direction: row;
 }
 
-.wine-img img:hover {
+.animation-background:hover {
     border-radius: 67% 33% 81% 19% / 34% 61% 39% 66%;
+}
+
+.menu-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    border-radius: 10px;
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    background: rgba(0, 0, 0, 0.8); /* transparent glassy white */
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 2rem;
+}
+
+/* __________________ABOUT.HTML__________________ */
+
+.article-about {
+    grid-area: 2 / 1 / 6 / 5;
+    margin: 0 0 0 0.5rem;
+    border-radius: 10px;
+    transition: 0.25s;
+    background-image: url("image/dd5794f7-80a8-4e25-b9ac-209a62ef7175.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about-settings {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+    /* width: 100%; */
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    background: rgba(24, 24, 24, 0.164); /* transparent glassy white */
+    border-radius: 10px;
+    
+}
+
+.about-settings p {
+    width: 80%;
+    line-height: 2.0;
+    font-weight: 800;
+}
+
+.about-settings div {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 100%;
+}
+
+.logo-reseaux img {
+    transition: 0.25s ease;
+    filter: grayscale(1);
+}
+
+.logo-reseaux img:hover {
+    transform: scale(1.30) rotate(-45deg);
+    filter: none;
+}
+
+.logo-size {
+    height: 30px;
+}
+
+/* __________________RESERVATIONS.HTML__________________ */
+
+.article-reserv {
+    grid-area: 2 / 1 / 6 / 5;
+    margin: 0 0 0 0.5rem;
+    border-radius: 10px;
+    transition: 0.25s;
 }
 
 
