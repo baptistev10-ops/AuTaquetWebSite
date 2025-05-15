@@ -312,6 +312,10 @@ footer:hover {
     margin-bottom: 3%;
 }
 
+.underline {
+    text-decoration: underline;
+}
+
 /* __________________LOC.HTML__________________ */
 
 
@@ -344,7 +348,7 @@ iframe {
     margin: 0 0 0 0.5rem;
     border-radius: 10px;
     transition: 0.25s;
-    
+    overflow-y: scroll;
 }
 
 .section-card img {
@@ -366,6 +370,49 @@ iframe {
     margin-left: 0.5rem;
 }
 
+.article-card img {
+    background-color: azure;
+    border-radius: 56% 44% 70% 30% / 30% 40% 60% 70%; 
+    height: 5rem;
+    padding: 2rem;
+    transition: 1.00s ease;
+}
+
+.section-card-wine {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.wine-card {
+    width: 35%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 0.25s ease;
+    
+}
+
+.wine-card:hover {
+    transform: scale(1.08);
+}
+
+.wine-card .wine-title, .wine-card i, .wine-card p, .wine-card b {
+    margin-bottom: 0;
+    font-size: 0.8rem;
+}
+
+.wine-title {
+    display: flex;
+    flex-direction: row;
+}
+
+.wine-img img:hover {
+    border-radius: 67% 33% 81% 19% / 34% 61% 39% 66%;
+}
 
 
 
