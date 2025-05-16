@@ -86,6 +86,7 @@ nav {
     justify-content: center;
     z-index: 1;
     font-weight: 700;
+    height: 100%;
 }
 
 nav ul {
@@ -267,115 +268,6 @@ footer:hover {
     display: flex;
 }
 
-/* Class personnalisées */
-
-.text-center {
-    text-align: center;
-}
-
-.grass {
-    font-weight: bold;
-}
-
-.capitalize {
-    text-transform: capitalize;
-}
-
-.link-style {
-    text-decoration: none;
-    color: #FFFFFF;
-}
-
-.bouton-style {
-    text-decoration: none;
-    border-radius: 10px;
-    backdrop-filter: blur(15px);
-    -webkit-backdrop-filter: blur(15px);
-    background: rgba(255, 255, 255, 0.1); /* transparent glassy white */
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    padding: 0.5rem;
-    transition: 0.25s;
-    color: white;
-}
-
-.text-shadow {
-    text-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-}
-
-.select {
-    transform: scale(1.12)
-}
-
-.absolute-position {
-    position: absolute;
-    bottom: 0;
-    margin-bottom: 3%;
-}
-
-.underline {
-    text-decoration: underline;
-}
-
-.img-red-wine {
-    background: linear-gradient(to bottom right, #4b0e0e, #8a1c1c, #b33f3f);
-    border-radius: 56% 44% 70% 30% / 30% 40% 60% 70%; 
-    height: 5rem;
-    padding: 2rem;
-    transition: 1.00s ease;
-}
-
-.img-white-wine {
-    background: linear-gradient(to bottom right, #fdf6e3, #f7e8b8, #e5c07b);
-    border-radius: 56% 44% 70% 30% / 30% 40% 60% 70%; 
-    height: 5rem;
-    padding: 2rem;
-    transition: 1.00s ease;
-}
-
-.img-pink-wine {
-    background: linear-gradient(to bottom right, #ffe4ec, #f8b5c8, #f295b5);
-    border-radius: 56% 44% 70% 30% / 30% 40% 60% 70%; 
-    height: 5rem;
-    padding: 2rem;
-    transition: 1.00s ease;
-}
-
-.img-beer-pression {
-    background: linear-gradient(to bottom right, #fdf3c0, #f7d774, #d4a82c);
-    border-radius: 56% 44% 70% 30% / 30% 40% 60% 70%; 
-    height: 5rem;
-    padding: 2rem;
-    transition: 1.00s ease;
-}
-
-.img-beer-bottle {
-    background: linear-gradient(to bottom right, #8c4b08, #bf6f19, #d99a3e);
-    border-radius: 56% 44% 70% 30% / 30% 40% 60% 70%; 
-    height: 5rem;
-    padding: 2rem;
-    transition: 1.00s ease;
-}
-
-.img-beer-artisanal {
-    background: linear-gradient(to bottom right, #b57b17, #d9a441, #f2c94c);
-    border-radius: 56% 44% 70% 30% / 30% 40% 60% 70%; 
-    height: 5rem;
-    padding: 2rem;
-    transition: 1.00s ease;
-}
-
-.img-beer-noalcool {
-    background: linear-gradient(to bottom right, #e0f7fa, #a7e8fd, #70cfff);
-    border-radius: 56% 44% 70% 30% / 30% 40% 60% 70%; 
-    height: 5rem;
-    padding: 2rem;
-    transition: 1.00s ease;
-}
-
-.margin-left {
-    margin-left: 4rem;
-}
-
 /* __________________LOC.HTML__________________ */
 
 
@@ -419,9 +311,6 @@ iframe {
     font-size: 2rem;
 }
 
-.section-card img {
-    height: 20px;
-}
 
 .dish {
     font-size: 1.5rem;
@@ -581,6 +470,131 @@ iframe {
 .article-galerie img:hover, .article-galerie video:hover {
     transform: scale(1.08);
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+/* __________________EVENTS.HTML__________________ */
+
+.article-events {
+    grid-area: 2 / 1 / 6 / 5;
+    margin: 0 0 0 0.5rem;
+    border-radius: 10px;
+    transition: 0.25s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* __________________CONTACT.HTML__________________ */
+
+
+
+/* Class personnalisées */
+
+.text-center {
+    text-align: center;
+}
+
+.grass {
+    font-weight: bold;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+.link-style {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.bouton-style {
+    text-decoration: none;
+    border-radius: 10px;
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    background: rgba(255, 255, 255, 0.1); /* transparent glassy white */
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 0.5rem;
+    transition: 0.25s;
+    color: white;
+}
+
+.text-shadow {
+    text-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+
+.select {
+    transform: scale(1.12)
+}
+
+.absolute-position {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 3%;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.img-red-wine {
+    background: linear-gradient(to bottom right, #4b0e0e, #8a1c1c, #b33f3f);
+    border-radius: 56% 44% 70% 30% / 30% 40% 60% 70%; 
+    height: 5rem;
+    padding: 2rem;
+    transition: 1.00s ease;
+}
+
+.img-white-wine {
+    background: linear-gradient(to bottom right, #fdf6e3, #f7e8b8, #e5c07b);
+    border-radius: 56% 44% 70% 30% / 30% 40% 60% 70%; 
+    height: 5rem;
+    padding: 2rem;
+    transition: 1.00s ease;
+}
+
+.img-pink-wine {
+    background: linear-gradient(to bottom right, #ffe4ec, #f8b5c8, #f295b5);
+    border-radius: 56% 44% 70% 30% / 30% 40% 60% 70%; 
+    height: 5rem;
+    padding: 2rem;
+    transition: 1.00s ease;
+}
+
+.img-beer-pression {
+    background: linear-gradient(to bottom right, #fdf3c0, #f7d774, #d4a82c);
+    border-radius: 56% 44% 70% 30% / 30% 40% 60% 70%; 
+    height: 5rem;
+    padding: 2rem;
+    transition: 1.00s ease;
+}
+
+.img-beer-bottle {
+    background: linear-gradient(to bottom right, #8c4b08, #bf6f19, #d99a3e);
+    border-radius: 56% 44% 70% 30% / 30% 40% 60% 70%; 
+    height: 5rem;
+    padding: 2rem;
+    transition: 1.00s ease;
+}
+
+.img-beer-artisanal {
+    background: linear-gradient(to bottom right, #b57b17, #d9a441, #f2c94c);
+    border-radius: 56% 44% 70% 30% / 30% 40% 60% 70%; 
+    height: 5rem;
+    padding: 2rem;
+    transition: 1.00s ease;
+}
+
+.img-beer-noalcool {
+    background: linear-gradient(to bottom right, #e0f7fa, #a7e8fd, #70cfff);
+    border-radius: 56% 44% 70% 30% / 30% 40% 60% 70%; 
+    height: 5rem;
+    padding: 2rem;
+    transition: 1.00s ease;
+}
+
+.margin-left {
+    margin-left: 4rem;
 }
 
 
