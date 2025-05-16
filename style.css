@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
+
 html, body {
     height: 100%;
     margin: 0;
@@ -116,6 +117,14 @@ nav a:hover {
     text-shadow: 0 0 20px black;
     transform: scale(1.50);
     
+}
+
+nav img {
+    width: 3rem;
+    height: auto;
+    transition: 0.25s;
+    border-radius: 50%;
+    display: none;
 }
 
 /* nav h2 {
@@ -244,7 +253,6 @@ footer:hover {
     padding: 10px;
     transition: transform 0.4s ease, box-shadow 0.4s ease;
     transform-style: preserve-3d;
-    
 }
 
 .avis-client:hover {
@@ -595,6 +603,150 @@ iframe {
 
 .margin-left {
     margin-left: 4rem;
+}
+
+
+/* ________________________________________Reponsive________________________________________ */
+
+
+
+
+
+@media only screen and (max-width:640px) {
+    * {
+        scroll-behavior: smooth;
+    }
+    
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-repeat: repeat;
+        min-height: 100vh;
+        height: auto;
+    }
+
+    nav:hover {
+        transform: none;
+    }
+
+    nav img {
+        display: block;
+        margin-bottom: 0.5rem;
+    }
+
+    nav h2 {
+        display: none;
+    }
+
+    nav ul {
+        flex-direction: row;
+        gap: 0.5rem;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 0.5rem;
+    }
+
+    nav ul li {
+        font-size: 0.8rem;
+    }
+
+    header {
+        display: none;
+    }
+
+    footer {
+        flex-direction: column;
+        gap: 0.5rem;
+    
+    }
+
+    .article-index,.article-about,.article-card,.article-events,.article-galerie,.article-loc,.article-reserv,section {
+        margin: 0;
+    }
+
+    .avis-client {
+        width: 80%;
+        margin: 0.5rem;
+    }
+
+    /* ______________________INDEX.HTML______________________ */
+
+    strong {
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .article-index img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+    }
+
+
+    .img-loc {
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+
+    /* ______________________CARTE.HTML______________________ */
+
+    .article-card {
+        min-height: 150px;
+    }
+
+    .section-card-wine {
+        flex-wrap: wrap;
+    }
+
+    .wine-card {
+        margin-top: 1rem;
+    }
+
+    .margin-left {
+        margin-left: 0.5rem;
+    }
+
+    /* ______________________ABOUT.HTML______________________ */
+
+    .about-settings h1 {
+        text-align: center;
+    }
+
+    .logo-reseaux img {
+        filter: none;
+    }
+
+    /* ______________________EVENTS.HTML______________________ */
+
+    .article-events h1 {
+        width: 100vw;
+        text-align: center;
+    }
+
+    /* ______________________GALERIE.HTML______________________ */
+
+    /* ______________________RESERVATIONS.HTML______________________ */
+
+    .article-reserv {
+        width: 100vw;
+        min-height: 200px;
+    }
+
+    /* ______________________CONTACT.HTML______________________ */
+
+    .article-contact {
+        width: 100vw;
+        min-height: 200px;
+    }
+
+    /* ______________________LOC.HTML______________________ */
+
+    .article-loc {
+        width: 100vw;
+        min-height: 400px;
+    }
+
 }
 
 
